@@ -9,7 +9,7 @@ class GiftBasket < Sinatra::Base
     Dotenv.load
     @key = ENV['API_KEY']
     @secret = ENV['API_SECRET']
-    @app_url = "jamied.ngrok.io"
+    @app_url = "cb65aac5.ngrok.io"
     @tokens = {}
     super
   end
